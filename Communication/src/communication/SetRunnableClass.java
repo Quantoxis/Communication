@@ -9,8 +9,8 @@ public class SetRunnableClass implements Runnable{
     
     public void run(){
         System.out.println("Hello from a thread!");
-        Test t = new Test();
-        t.setValue(44);
+        Test test = new Test();
+        test.setValue(44);
         
     }
 }
