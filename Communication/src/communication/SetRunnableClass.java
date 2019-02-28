@@ -7,6 +7,12 @@ package communication;
 
 public class SetRunnableClass implements Runnable{
     
+    Test  test;
+    
+    public void SetRunnableClass(Test test){
+        this.test = test;
+    }
+    
     public void run(){
         System.out.println("Hello from a thread!");
         Test test = new Test();
